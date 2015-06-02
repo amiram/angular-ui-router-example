@@ -1,4 +1,4 @@
-Lately I had to build an angular page that shows a list and the ability to edit each object, which is a very common scenario ever since. In this post I'll show you how to do it easily with angular ui-router.
+This small repo has an angular page that shows a list and the ability to edit each object. Routing is donw with angular ui-router.
 
 Let's say we have a list of persons and we would like to:
 
