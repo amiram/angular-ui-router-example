@@ -157,5 +157,4 @@ In personEdit.html we need to add two button for back and save operations:
     <button class="btn btn-default" ui-sref="PersonList()">Back</button>
     <button class="btn btn-primary" ui-sref="PersonList()" ng-click="savePerson()">Save</button>
 
-That's it. See it live at
-> Written with [StackEdit](https://stackedit.io/).
+That's it. See it live at http://amiram.github.io/angular-ui-router-example
