@@ -1,0 +1,16 @@
+﻿<div ng-controller="personController">
+    <button class="btn btn-default" ui-sref="PersonList()">Back</button>
+    <button class="btn btn-primary" ui-sref="PersonList()" ng-click="savePerson()">Save</button>
+    <form class="form">
+        <h1>Edit Person</h1>
+        <h4>Id: {{person.id}}</h4>
+        <div class="form-group">
+            <label>First Name:</label>
+            <input class="form-control" type="text" ng-model="person.firstName" />
+        </div>
+        <div class="form-group">
+            <label>Last Name:</label>
+            <input class="form-control" type="text" ng-model="person.lastName" />
+        </div>
+    </form>
+</div>

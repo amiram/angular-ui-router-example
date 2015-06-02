@@ -1,0 +1,18 @@
+﻿<div ng-controller="personsController">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="p in persons">
+                <td><a ui-sref="PersonEdit({id: {{p.id}}, person: {{p}}})">{{p.id}}</a></td>
+                <td>{{p.firstName}}</td>
+                <td>{{p.lastName}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
