@@ -1,4 +1,4 @@
-This small repo has an angular page that shows a list and the ability to edit each object. Routing is donw with angular ui-router.
+This small repo has an angular page that shows a list and the ability to edit each object. Routing is donw with [angular ui-router](https://github.com/angular-ui/ui-router).
 
 Let's say we have a list of persons and we would like to:
 
